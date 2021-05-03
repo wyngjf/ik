@@ -115,8 +115,8 @@ Eigen::MatrixXf MyCustomConstraint::getJacobianOfCoM(const VirtualRobot::RobotNo
             if (dof->isRotationalJoint())
             {
                 // get axis
-                boost::shared_ptr<VirtualRobot::RobotNodeRevolute> revolute
-                    = boost::dynamic_pointer_cast<VirtualRobot::RobotNodeRevolute>(dof);
+                std::shared_ptr<VirtualRobot::RobotNodeRevolute> revolute
+                    = std::dynamic_pointer_cast<VirtualRobot::RobotNodeRevolute>(dof);
                 THROW_VR_EXCEPTION_IF(!revolute, "Internal error: expecting revolute joint");
                 Eigen::Vector3f axis = revolute->getJointRotationAxis();
 
@@ -128,8 +128,8 @@ Eigen::MatrixXf MyCustomConstraint::getJacobianOfCoM(const VirtualRobot::RobotNo
             }
             else if (dof->isTranslationalJoint())
             {
-                boost::shared_ptr<VirtualRobot::RobotNodePrismatic> prismatic
-                    = boost::dynamic_pointer_cast<VirtualRobot::RobotNodePrismatic>(dof);
+                std::shared_ptr<VirtualRobot::RobotNodePrismatic> prismatic
+                    = std::dynamic_pointer_cast<VirtualRobot::RobotNodePrismatic>(dof);
                 THROW_VR_EXCEPTION_IF(!prismatic, "Internal error: expecting prismatic joint");
                 Eigen::Vector3f axis = prismatic->getJointTranslationDirection();
 

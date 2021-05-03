@@ -5,6 +5,7 @@
 
 #include "MySingleConstraintIK.h"
 #include "SolutionSwitch.h"
+#include <VirtualRobot/MathTools.h>
 
 MySingleConstraintIK::MySingleConstraintIK(const VirtualRobot::RobotPtr &robot, const VirtualRobot::RobotNodeSetPtr &nodeSet, const VirtualRobot::ConstraintPtr &constraint) :
     robot(robot),

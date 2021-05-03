@@ -136,7 +136,7 @@ void ConstrainedIKWindow::rebuildVisualization()
 
     if (robot)
     {
-        boost::shared_ptr<CoinVisualization> visualization = robot->getVisualization<CoinVisualization>(colModel);
+        std::shared_ptr<CoinVisualization> visualization = robot->getVisualization<CoinVisualization>(colModel);
         SoNode* visualisationNode = NULL;
         if (visualization)
             visualisationNode = visualization->getCoinVisualization();
@@ -150,7 +150,7 @@ void ConstrainedIKWindow::rebuildVisualization()
     {
         for (size_t i=0;i<obstacles->getSceneObjects().size();i++)
         {
-            boost::shared_ptr<CoinVisualization> visualization = obstacles->getSceneObjects().at(i)->getVisualization<CoinVisualization>(colModel);
+            std::shared_ptr<CoinVisualization> visualization = obstacles->getSceneObjects().at(i)->getVisualization<CoinVisualization>(colModel);
             SoNode* visualisationNode = NULL;
             if (visualization)
                 visualisationNode = visualization->getCoinVisualization();

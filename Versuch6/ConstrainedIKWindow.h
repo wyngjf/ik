@@ -105,7 +105,7 @@ protected:
     VirtualRobot::EndEffectorPtr leftHandEndEffector;
     VirtualRobot::ScenePtr scene;
 
-    boost::shared_ptr<VirtualRobot::CoinVisualization> visualization;
+    std::shared_ptr<VirtualRobot::CoinVisualization> visualization;
 };
 
 #endif // __PathPlanning_WINDOW_H_

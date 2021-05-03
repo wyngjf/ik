@@ -5,9 +5,7 @@
 
 #include <VirtualRobot/IK/Constraint.h>
 
-#include <boost/shared_ptr.hpp>
-
-class MyCustomConstraint : public VirtualRobot::Constraint, public boost::enable_shared_from_this<MyCustomConstraint>
+class MyCustomConstraint : public VirtualRobot::Constraint, public std::enable_shared_from_this<MyCustomConstraint>
 {
 public:
     MyCustomConstraint(const VirtualRobot::RobotPtr& robot, const VirtualRobot::RobotNodeSetPtr& nodeSet, const VirtualRobot::RobotNodeSetPtr& nodeSetFull, const VirtualRobot::RobotNodePtr &platformNode);
@@ -27,4 +25,4 @@ protected:
     VirtualRobot::SupportPolygonPtr supportPolygon;
 };
 
-typedef boost::shared_ptr<MyCustomConstraint> MyCustomConstraintPtr;
+typedef std::shared_ptr<MyCustomConstraint> MyCustomConstraintPtr;

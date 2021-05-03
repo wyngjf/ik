@@ -1,0 +1,6 @@
+<Obstacle name='glas'>
+        <Visualization>
+                <File type='inventor'>glas.iv</File>
+                <UseAsCollisionModel/>
+        </Visualization>
+</Obstacle>

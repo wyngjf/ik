@@ -1,0 +1,6 @@
+<Obstacle name='border'>
+    <Visualization>
+        <File type='inventor'>border.iv</File>
+        <UseAsCollisionModel/>
+    </Visualization>
+</Obstacle>

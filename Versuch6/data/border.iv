@@ -1,0 +1,62 @@
+#Inventor V1.0 ascii
+
+Separator {
+
+   Units {
+            units MILLIMETERS
+    }
+    BaseColor
+    {
+     rgb 1 0 0 
+    }
+
+    # left
+    Separator {
+        Translation{
+                translation 1500 0 50
+        }
+        Cube {
+            width 100
+            height 3100
+            depth 120
+       }
+   }
+
+
+    Separator {
+        # right
+        Translation{
+                translation -1500 0 50
+        }
+        Cube {
+            width 100
+            height 3100
+            depth 120
+        }
+    }
+
+    Separator {
+        # bottom
+        Translation{
+                translation 0 1500 50
+        }
+        Cube {
+            width 3100
+            height 100
+            depth 120
+        }
+    }
+
+    Separator {
+        # top
+        Translation{
+                translation 0 -1500 50
+        }
+        Cube {
+            width 3100
+            height 100
+            depth 120
+       }
+    }
+
+}

@@ -1,0 +1,6 @@
+<Obstacle name='Floor'>
+    <Visualization>
+        <File type='inventor'>floor.iv</File>
+        <UseAsCollisionModel/>
+    </Visualization>
+</Obstacle>

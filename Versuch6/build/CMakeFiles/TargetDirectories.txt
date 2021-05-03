@@ -1,4 +1,0 @@
-/home/jianfeng/lab/roboterpratikum/versuch6_labpc/Versuch6/build/CMakeFiles/rebuild_cache.dir
-/home/jianfeng/lab/roboterpratikum/versuch6_labpc/Versuch6/build/CMakeFiles/ConstrainedIK_Group.dir
-/home/jianfeng/lab/roboterpratikum/versuch6_labpc/Versuch6/build/CMakeFiles/edit_cache.dir
-/home/jianfeng/lab/roboterpratikum/versuch6_labpc/Versuch6/build/CMakeFiles/ConstrainedIK_Group_autogen.dir

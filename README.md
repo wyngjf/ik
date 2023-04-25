@@ -1,3 +1,3 @@
 # ik
 
-See `./doc/Versuch6-Constraint IK INSTRUCTIONS.html` for an instruction.
+See `./doc/Constraint IK INSTRUCTIONS.md` for an instruction.

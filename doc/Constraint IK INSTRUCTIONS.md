@@ -13,12 +13,13 @@ cd <project_dir>
 
 - open a terminal and start QtCreator
 ```shell
-qtcreator &
+qtcreator-5.0
 ```
 - In QtCreator, `Ctrl + O` to open a project. 
 - Navigate to your project in `<project_dir>` folder
 - Select `CMakeLists.txt` and open
-- Open file `MySingleConstraintIK.cpp` and `Ctrl + F`, click `Advanced...`. Select `Project "ConstrainedIK_group#"` in `Scope:` and type `PUT CODE HERE FOR EXERCISE` in `Search for:`. And click `Search` button. This will show you all the exercises you need to finish.
+- in the `Configure Project` panel, make sure to select `Build` with `/common/homes/students/rp2/workspace/ik/exercise/build` or `/common/homes/students/rp2b/workspace/ik/exercise/build` depending on which account you are using. Then press `Configure Project`.
+- Open file `MySingleConstraintIK.cpp` and `Ctrl + F`, click `Advanced...`. Select `Project "ConstrainedIK"` in `Scope:` and type `PUT CODE HERE FOR EXERCISE` in `Search for:`. And click `Search` button. This will show you all the exercises you need to finish.
 
 <img src="figures/search_qt.png" width="600"/>
 

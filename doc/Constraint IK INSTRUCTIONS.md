@@ -3,7 +3,7 @@
 
 The `<project_dir>` is `~/workspace/ik/exercise/`
 
-- go to project directory
+- go to project directory, press 'shift+alt+T' to open a new terminal. (To open a new tab, use 'ctrl+shift+T')
 ```shell
 cd <project_dir>
 ```
@@ -121,10 +121,10 @@ Observe the difference of the motion of the robot when the scene changes and als
 
 # What should my result look like?
 
-I built the project in advance and put the result in `~/.test/ik_results/exercise/` folder. 
+I built the project in advance and put the result in `~/.gt` folder. Open a new terminal and
 
 ```
-cd ~/.test/ik_results/exercise/build
+cd ~/.gt/build
 ./ConstrainedIK
 ```
 and play around with it.
@@ -142,5 +142,5 @@ Compress your codes and the homework document and send it to `jianfeng.gao@kit.e
 
 # How to get help?
 
-- find me in room 333 or 003
+- find me in room 515
 - send me an email: jianfeng.gao@kit.edu

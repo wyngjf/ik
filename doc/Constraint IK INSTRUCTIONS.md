@@ -4,6 +4,7 @@
 The `<project_dir>` is `~/workspace/ik/exercise/`
 
 - go to project directory, press 'shift+alt+T' to open a new terminal. (To open a new tab, use 'ctrl+shift+T')
+
 ```shell
 cd <project_dir>
 ```
@@ -12,9 +13,11 @@ cd <project_dir>
 # How to start my exercise?
 
 - open a terminal and start QtCreator
+
 ```shell
 qtcreator-5.0
 ```
+
 - In QtCreator, `Ctrl + O` to open a project. 
 - Navigate to your project in `<project_dir>` folder
 - Select `CMakeLists.txt` and open

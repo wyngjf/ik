@@ -17,6 +17,7 @@
 #include <VirtualRobot/Visualization/CoinVisualization/CoinVisualizationNode.h>
 #include <VirtualRobot/Visualization/CoinVisualization/CoinVisualization.h>
 #include <VirtualRobot/IK/ConstrainedHierarchicalIK.h>
+#include "VirtualRobot/Scene.h"
 
 #include <string.h>
 #include <QtCore/QtGlobal>

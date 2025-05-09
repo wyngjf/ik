@@ -36,6 +36,8 @@
 #include <Inventor/nodes/SoSphere.h>
 #include <Inventor/nodes/SoUnits.h>
 #include <Inventor/nodes/SoTransform.h>
+#include <Inventor/nodes/SoMatrixTransform.h>
+#include <Inventor/nodes/SoMaterial.h>
 
 #include <sstream>
 using namespace std;
@@ -136,7 +138,7 @@ void ConstrainedIKWindow::rebuildVisualization()
 
     if (robot)
     {
-        std::shared_ptr<CoinVisualization> visualization = robot->getVisualization<CoinVisualization>(colModel);
+        std::shared_ptr<CoinVisualization> visualization = robot->getVisualization(colModel);
         SoNode* visualisationNode = NULL;
         if (visualization)
             visualisationNode = visualization->getCoinVisualization();

@@ -9,6 +9,8 @@
 #include <VirtualRobot/Nodes/RobotNodeRevolute.h>
 #include <VirtualRobot/Nodes/RobotNodePrismatic.h>
 #include <VirtualRobot/IK/SupportPolygon.h>
+#include "VirtualRobot/SceneObject.h"
+#include <VirtualRobot/RobotNodeSet.h>
 
 MyCustomConstraint::MyCustomConstraint(const VirtualRobot::RobotPtr &robot, const VirtualRobot::RobotNodeSetPtr &nodeSet, const VirtualRobot::RobotNodeSetPtr &nodeSetFull, const VirtualRobot::RobotNodePtr &platformNode) :
     Constraint(nodeSet),

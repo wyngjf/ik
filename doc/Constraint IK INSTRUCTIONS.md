@@ -135,15 +135,10 @@ and play around with it.
 
 # Handover your codes and homework when you finish
 
-Compress your codes and the homework document and send it to `jianfeng.gao@kit.edu` with subject `IK-Group<Your Group Number>`. e.g. `IK-Group2`.
+Compress the ik folder ("/common/homes/functional/rpc_02/workspace/ik") and name the compressed file `IK-Group<Your Group Number>`. e.g. `IK-Group2`. The compressed file should appear in the same folder as the `ik` folder. Make sure you saved all your code and homeworks before compress the files.
 
-```
-- IK-Group2
-    - exercise [folder]
-    - homework.odt
-```
 
 # How to get help?
 
-- find me in room 515
+- find me in room 005
 - send me an email: jianfeng.gao@kit.edu
